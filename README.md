@@ -30,59 +30,41 @@ Please state any assumptions you have made about the scenario.
  
 1. Vehicle Fleet Records 
   
-Fleet ID 	Customer ID 	Customer Name 	Vehicle Model 	Vehicle 
-Registration 	Vehicle 
-Type 
-Code 	Vehicle 
-Type 
-Description 
-201 	23 	Ricardo 
-Enterprises 	Ford Focus 	S10 URP 	Small Car 	Any supermini, small family car or city car. 
-201 	23 	Ricardo 
-Enterprises 	Kia Picanto 	S30 KLL 	Small Car 	Any supermini, small family car or city car. 
-201 	23 	Ricardo 
-Enterprises 	Fort Transit 	S123 UTT 	Van 	Any van 
-203 	23 	Ricardo 
-Enterprises 	BMW 5 Series 	S20 UYT 	Large Car 	Any people mover, small or large MPV 
-203 	23 	Ricardo 
-Enterprises 	Kia Picanto 	L99 5TT 	Small Car 	Any supermini, small family car or city car. 
-301 	11 	Brown 
-Estate 
-Agents 	Ford Transit 	L87 WXH 	Van 	Any van 
-301 	11 	Brown 
-Estate 
-Agents 	Fiat Uno 	S20 UHH 	Small Car 	Any supermini, small family car or city car. 
-400 	12 	White 
-Holdings 	Chevrolet Malibu 	S50 RSE 	Medium 
-Car 	Midsized, intermediate or large family car 
+FleetID ||	CustomerID ||	CustomerName ||	VehicleModel ||	VehicleRegistration ||	VehicleTypeCode ||	VehicleTypeDescription
+
+201 --	23 --	Ricardo Enterprises --	Ford Focus --	S10 URP --	Small Car --	Any supermini, small family car or city car.
+
+201 --	23 --	Ricardo Enterprises --	Kia Picanto --	S30 KLL --	Small Car --	Any supermini, small family car or city car. 
+
+201 --	23 --	Ricardo Enterprises --	Fort Transit --	S123 UTT --	Van --	Any van 
+
+203 --	23 --	Ricardo Enterprises --	BMW 5 Series --	S20 UYT --	Large Car --	Any people mover, small or large MPV 
+
+203 --	23 --	Ricardo Enterprises --	Kia Picanto --	L99 5TT --	Small Car	-- Any supermini, small family car or city car. 
+
+301 --	11 --	Brown Estate Agents --	Ford Transit --	L87 WXH --	Van --	Any van 
+
+301 --	11 --	Brown Estate Agents --	Fiat Uno --	S20 UHH --	Small Car --	Any supermini, small family car or city car. 
+
+400 --	12 --	White Holdings --	Chevrolet Malibu --	S50 RSE --	Medium Car --	Midsized, intermediate or large family car 
  
 NOTE: Ricardo Enterprises has two different fleets.  
  
-2. Rental Arrangement 
  
-Driver ID 	Driver Name 	Rental 
-Arrangement Type 	Fleet ID 	Start Date 	End Date 	Vehicle 
-Registration 
-D77 	Leon 
-Garfield 	One-off 	201 	01-MAR-
-2017 	01-MAR-
-2018 	S10 URP 
-D99 	Oliver Morton 	One-off 	201 	01-MAR-
-2017 	01-MAR-
-2018 	S30 KLL 
-D81 	Edgar West 	Duration of Contract 	201 	03-APR-
-2017 	 	S123 UTT 
-D99 	Mavis Cutter 	Other 	203 	01-MAR-
-2017 	01-MAR-
-2021 	S20 UYT 
-D100 	Mark Smith 	Other 	203 	01-MAR-
-2017 	01-DEC-
-2017 	L99 5TT 
-D101 	Jeff Moon 	Monthly 	301 	01-FEB-
-2017 	02-MAR-
-2018 	L87 WXH 
- 
- 
+# Rental Arrangement 
+DriverID --	DriverName --	RentalArrangementType --	FleetID --	StartDate --	EndDate --	VehicleRegistration 
+
+D77 --	Leon Garfield --	One-off --	201 --	01-MAR-2017 --	01-MAR-2018 --	S10 URP
+
+D99 --	Oliver Morton --	One-off --	201 --	01-MAR-2017 --	01-MAR-2018 --	S30 KLL
+
+D81 --	Edgar West --	Duration of Contract --	201 --	03-APR-2017 	--	S123 UTT 
+
+D99 --	Mavis Cutter --	Other --	203 --	01-MAR-2017 --	01-MAR-2021 --	S20 UYT
+
+D100 --	Mark Smith --	Other --	203 --	01-MAR-2017 --	01-DEC-2017 --	L99 5TT 
+
+D101 --	Jeff Moon --	Monthly --	301 --	01-FEB-2017 --	02-MAR-2018 --	L87 WXH 
  
  
  
@@ -95,18 +77,18 @@ Address of Driver: 80 Kestrel Rd, SE15 6NQ
 Date of Repair: 01/03/17 
  
 #Parts Used 
-Part Code 	Part Name 	Quantity 
-BL - Back Lights 	2 
-FW - Front Window screen 	1 
-BW - Back Window screen 	1 
-SB - Seat Belt 	 
+PartCode --	PartName --	Quantity 
+BL - Back Lights --	2 
+FW - Front Window screen --	1 
+BW - Back Window screen --	1 
+SB - Seat Belt 	 1
  
  
 # taff Worked 
  
-Staff ID 	Name 
-S78 - Dave Smith 
-S23 - Holly Leman 
+StaffID --	Name 
+S78 -- Dave Smith 
+S23 -- Holly Leman 
  
  
 # Note 
