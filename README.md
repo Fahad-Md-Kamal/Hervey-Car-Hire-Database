@@ -78,16 +78,22 @@ Date of Repair: 01/03/17
  
 #Parts Used 
 PartCode --	PartName --	Quantity 
+
 BL - Back Lights --	2 
+
 FW - Front Window screen --	1 
+
 BW - Back Window screen --	1 
+
 SB - Seat Belt 	 1
  
  
-# taff Worked 
+# staff Worked 
  
-StaffID --	Name 
+StaffID --	Name
+
 S78 -- Dave Smith 
+
 S23 -- Holly Leman 
  
  
