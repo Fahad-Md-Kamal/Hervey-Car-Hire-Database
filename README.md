@@ -30,11 +30,10 @@ Please state any assumptions you have made about the scenario.
  
  
  
-.  
-# Below are a sample of the paper records currently kept by Harvey Car Hire. They should be taken as representative of a much larger data set.   
+Below are a sample of the paper records currently kept by Harvey Car Hire. They should be taken as representative of a much larger data set.   
 ===========================================
 
-1. Vehicle Fleet Records 
+# Vehicle Fleet Records 
   
 FleetID ||	CustomerID ||	CustomerName ||	VehicleModel ||	VehicleRegistration ||	VehicleTypeCode ||	VehicleTypeDescription
 
