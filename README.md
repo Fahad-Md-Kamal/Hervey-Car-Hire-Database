@@ -1,7 +1,7 @@
 # Hervey-Car-Hire-Database
 Harvey car Hire company's database.
 
-#Scenario 
+# Scenario 
 Harvey Car Hire is a vehicle hire company based in London, United Kingdom. They want you to develop a new database for their core business. This summary and the examples of data that following it may be taken as indicating aspects of the system requirements for this assignment. 
  
 Harvey Car Hire rents cars and other motorised vehicles to corporate customers in large numbers.  A customer will have one or more fleets of vehicles, which will consist of one or more vehicles. Vehicles are defined as being of a particular type such as small car, medium car, large car or van.  
@@ -26,7 +26,7 @@ Please state any assumptions you have made about the scenario.
  
  
 .  
-#Below are a sample of the paper records currently kept by Harvey Car Hire. They should be taken as representative of a much larger data set.   
+# Below are a sample of the paper records currently kept by Harvey Car Hire. They should be taken as representative of a much larger data set.   
  
 1. Vehicle Fleet Records 
   
@@ -86,7 +86,7 @@ D101 	Jeff Moon 	Monthly 	301 	01-FEB-
  
  
  
-#Document 3. Vehicle Repair Sheet 
+# Document 3. Vehicle Repair Sheet 
  
 Vehicle Registration: L87 WXH 
 Repair Number: 3 
@@ -102,14 +102,14 @@ BW - Back Window screen 	1
 SB - Seat Belt 	 
  
  
-#Staff Worked 
+# taff Worked 
  
 Staff ID 	Name 
 S78 - Dave Smith 
 S23 - Holly Leman 
  
  
-#Note 
+# Note 
 This document is for a single repair event on the given date. A repair event may use a number of different parts as indicated. It may involve one or more staff.  
  
 Over time each vehicle may have a number of different repairs and this is indicated by a repair number. Therefore the unique identifier for each repair event would be the combination of the vehicle registration and the repair number.  
@@ -118,7 +118,7 @@ End of Case Study
  	 
  
  
-#Requirements
+# Requirements
 
 a. Produce an entity relationship model for the proposed database system for Harvey 
 Car Hire 
