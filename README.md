@@ -78,10 +78,14 @@ D101 --	Jeff Moon --	Monthly --	301 --	01-FEB-2017 --	02-MAR-2018 --	L87 WXH
 # Document 3. Vehicle Repair Sheet 
 ============================================
 
-Vehicle Registration: L87 WXH 
+Vehicle Registration: L87 WXH
+
 Repair Number: 3 
+
 Name of Driver: Jeff Moon 
+
 Address of Driver: 80 Kestrel Rd, SE15 6NQ 
+
 Date of Repair: 01/03/17 
  
  
@@ -91,8 +95,11 @@ Date of Repair: 01/03/17
 PartCode --	PartName --	Quantity 
 
 BL -- Back Lights --	2 
+
 FW -- Front Window screen --	1 
+
 BW -- Back Window screen --	1 
+
 SB -- Seat Belt --	 1
  
  
@@ -102,6 +109,7 @@ SB -- Seat Belt --	 1
 StaffID --	Name
 
 S78 -- Dave Smith
+
 S23 -- Holly Leman 
  
  
