@@ -127,15 +127,26 @@ c.	Produce a data dictionary for your proposed system.
  ===============================================
  
 a)	Create the tables in SQL and show the CREATE scripts as running in the programming environment.
-b)	Create data on all the customers, fleets and vehicles. Provide a screen shot of the data. 
+
+b)	Create data on all the customers, fleets and vehicles. Provide a screen shot of the data.
+
 c)	Create data for drivers shown in assignment. Provide a screen shot of the data.
-d)	Create data on all the fleets. Provide a screen shot of the data. 
-e)	Create data showing all the staff. Provide a screen shot of the data. 
+
+d)	Create data on all the fleets. Provide a screen shot of the data.
+
+e)	Create data showing all the staff. Provide a screen shot of the data.
+
 f)	Write a query that selects the registration numbers for all small cars in the fleet for customer Brown Estate Agents.
-g)	Write a query that selects the start dates for all vans in every fleet. 
-h)	Write a query that shows the details of the repairs shown in document 3. 
+
+g)	Write a query that selects the start dates for all vans in every fleet.
+
+h)	Write a query that shows the details of the repairs shown in document 3.
+
 i)	Write a query that counts all the vehicles of type ‘van’
-j)	Write a query to select driver name, fleet id and vehicle registration for all rental arrangements that began on the 1st of March 2017 
-k)	Update the driver’s name ‘Mavis Cutter’ to ‘Mavis Drinkfield’. 
+
+j)	Write a query to select driver name, fleet id and vehicle registration for all rental arrangements that began on the 1st of March 2017
+
+k)	Update the driver’s name ‘Mavis Cutter’ to ‘Mavis Drinkfield’.
+
 l)	Alter the database so that it keeps a record of insurance document id numbers for all drivers.
  
