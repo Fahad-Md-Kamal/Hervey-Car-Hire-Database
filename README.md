@@ -119,9 +119,12 @@ End of Case Study
  
 # Requirements
 =============================================
+
 a. Produce an entity relationship model for the proposed database system for Harvey 
 Car Hire .
+
 b.	Provide a discussion of the normalisation taken to produce a set of third normal form relations for the proposed system. You should explain normalisation and how you have applied it.
+
 c.	Produce a data dictionary for your proposed system. 
  
  ===============================================
